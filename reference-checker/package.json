@@ -1,0 +1,15 @@
+{
+  "name": "reference-checker",
+  "version": "0.1.0",
+  "description": "Verify bibliography entries against Crossref and OpenAlex",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "node --experimental-strip-types --no-warnings --test test/*.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0"
+  }
+}
